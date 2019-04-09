@@ -1,0 +1,81 @@
+<!DOCTYPE HTML>
+<html lang="ru">
+<head>
+	<meta charset="utf-8">
+	<title>Заголовок страницы</title>
+	<link rel="stylesheet" href="reset.css">
+	<link rel="stylesheet" href="style.css">
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+</head>
+
+<body>
+	<div class="overlay">
+		<img src="img/preloader.gif" alt="предзагрузка">  <!-- предзагрузчик -->
+	</div>
+
+	<div class="wrapper">
+		<section>
+			<audio src="media/smeh.mp3" loop></audio>
+		</section>
+
+		<div class="for_canvas">
+			<canvas></canvas> <!-- изначально пустой канвас -->
+		</div>
+
+		<video src="media/fon.mp4" autoplay muted loop>
+		</video>
+
+		<header>
+			<div class="tel">
+				<p>+375(29)788-86-26</p>
+			</div>
+			<div class="logo">
+				<p><a href="index.html">Homechild.by</a></p>
+			</div>
+		</header>
+
+		<div class="texts"> <!-- правый блок -->
+			<p class="about">
+					- ручная работа<br>
+					- индивидуальный пошив<br>
+					- стоимость от 15 рублей<br>
+			</p>
+			<p class="slogan">
+				Именные подушки <span>- <br>для детей <br>твоей подружки</span> <!-- левый блок  -->
+			</p>
+
+		</div>
+		<div class="aud">включить звук
+		</div>
+
+		<div class="between">
+			<p>Выгоднее в пару раз, заказать ее сейчас</p>
+		</div>
+
+		<div class="paral">  <!-- параллакс-блок  -->
+			<div id="overflow"  onmousemove = "cursorXY(event);">
+				<div id = "first"></div>
+				<div id = "second"></div>
+				<div id = "third"></div>
+			</div>
+		</div>
+
+		<div class="we-are-here">
+			<p>Мы находимся здесь</p>
+		</div>
+
+		<script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A7d09afc140dcf047902d976fc238dd04133aa7054a9fbbdbea026e5edd265ba6&amp;width=100%25&amp;height=400&amp;lang=ru_RU&amp;scroll=false"></script> <!-- карта от Яндекс  -->
+
+		<footer>
+			<p>
+				Ремесленник: Рогожкина Екатерина Александровна УНП НВ1087509
+			</p>
+		</footer>
+
+
+
+	</div>
+	<script src="script.js"></script>
+</body>
+
+</html>
